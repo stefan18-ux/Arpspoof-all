@@ -14,5 +14,10 @@ You need an wireless adapter in order to connect from inside you kali machine or
 $ git clone https://github.com/sherlock-project/sherlock.git
 
 # change the working directory to sherlock
-$ cd sherlock
+$ cd arpspoof_all_machines
+```
+## Usage
+
+```
+python3 main.py
 ```
