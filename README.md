@@ -5,3 +5,14 @@ Basically, you can drop all of the packets of the devices that are connected to 
 More features can be added to the project, because after you establish the MITM connection, you can perform a bunch of oterh cool attacks.
 
 # Prerequisites
+You need an wireless adapter in order to connect from inside you kali machine or even if you are not using a virtual machine.
+
+<p align="center">
+  <a href="#installation">Installation</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#usage">Usage</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#docker-notes">Docker Notes</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#contributing">Contributing</a>
+</p>
