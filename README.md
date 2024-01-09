@@ -13,7 +13,7 @@ You need an wireless adapter in order to connect either from inside you kali mac
 # clone the repo
 $ git clone https://github.com/stefan18-ux/Arpspoof-all/
 
-# change the working directory to sherlock
+# change the working directory to arpspoof
 $ cd Arpspoof-all
 
 # install the requirements
