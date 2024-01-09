@@ -31,6 +31,21 @@ ans.make_settings("down")
 ans = functions.Attack(ip_addresses,gateway)
 ans.runnning_attack()
 
+"""
+
+#DONE#
+0.prepare the machine for the attack
+1.find ip and all other info #done#
+2.netdiscover #done#
+3.re.get_ips #done#
+4.arpspoof #done#
+5.packet drops #done#
+#DONE#
+---------------
+de implementat mai multe atacuri pe vitor
+"""
+
+
 # Getting the system to it's initial settings.
 ans = functions.Set_values()
 ans.make_settings("up")
