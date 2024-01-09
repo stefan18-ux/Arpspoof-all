@@ -98,7 +98,6 @@ class Findall_ips_on_network:
         if count == int(2):
             command = "netdiscover -r " + ip_search + "0.0" + self.cidr + " -i wlan0 -P > 0"
             self.run_netdiscover(command)
-
         # Now we have to find all of the ips, using regex, from the '0' file that we created when we used netdiscover
         file_path = "0"
         with open(file_path, 'r') as file:
