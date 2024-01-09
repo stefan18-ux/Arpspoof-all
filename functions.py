@@ -104,6 +104,8 @@ class Findall_ips_on_network:
             content = file.read()
         ip_addresses = re.findall(r'\b\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\b',content)
         subprocess.call("rm 0",shell = True)
+        for i in ip_addresses:
+            print(i)
         return ip_addresses
 
 
