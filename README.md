@@ -11,10 +11,10 @@ You need an wireless adapter in order to connect from inside you kali machine or
 
 ```console
 # clone the repo
-$ git clone https://github.com/sherlock-project/sherlock.git
+$ git clone https://github.com/stefan18-ux/Arpspoof-all/
 
 # change the working directory to sherlock
-$ cd arpspoof_all_machines
+$ cd Arpspoof-all
 ```
 ## Usage
 
