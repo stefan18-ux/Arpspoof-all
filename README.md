@@ -24,4 +24,6 @@ $ sudo pip install netfilterqueue
 
 ```
 python3 main.py
+
+I recommend also running it first for about 10 seconds, and after run it again(the netdiscover command may not be as accurate as it should from the first try).
 ```
