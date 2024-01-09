@@ -5,7 +5,7 @@ Basically, you can drop all of the packets of the devices that are connected to 
 More features can be added to the project, because after you establish the MITM connection, you can perform a bunch of oterh cool attacks.
 
 # Prerequisites
-You need an wireless adapter in order to connect from inside you kali machine or even if you are not using a virtual machine.
+You need an wireless adapter in order to connect either from inside you kali machine or from your local machine.
 
 ## Installation
 
@@ -15,6 +15,9 @@ $ git clone https://github.com/stefan18-ux/Arpspoof-all/
 
 # change the working directory to sherlock
 $ cd Arpspoof-all
+
+# install the requirements
+$ python3 -m pip install -r requirements.txt
 ```
 ## Usage
 
