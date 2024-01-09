@@ -17,7 +17,8 @@ $ git clone https://github.com/stefan18-ux/Arpspoof-all/
 $ cd Arpspoof-all
 
 # install the requirements
-$ python3 -m pip install -r requirements.txt
+$ sudo apt-get install build-essential libnfnetlink-dev libnetfilter-queue-dev
+$ sudo pip install netfilterqueue
 ```
 ## Usage
 
