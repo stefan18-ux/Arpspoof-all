@@ -1,29 +1,39 @@
 # Arpspoof-all
-It's a project that i made out of boredom, but i think it's pretty cool.
 
-Basically, you can drop all of the packets of the devices that are connected to the same internet you are connected. It finds all of the ip's of the devices connected to the internet and performs an MITM attack to all the devices at the same time and after that it interrupts their internet connection.
-More features can be added to the project, because after you establish the MITM connection, you can perform a bunch of oterh cool attacks.
+**Arpspoof-all** is a network security tool designed to perform Man-In-The-Middle (MITM) attacks on all devices connected to the same local network. Once the tool discovers the IP addresses of the connected devices, it simultaneously launches MITM attacks and can interrupt their internet connections. 
 
-# Prerequisites
-You need an wireless adapter in order to connect either from inside you kali machine or from your local machine.
+The tool is designed with extensibility in mind, meaning that after establishing the MITM connection, you can further implement and execute a variety of additional network attacks.
+
+## Prerequisites
+
+To run **Arpspoof-all**, you'll need the following:
+
+- A wireless adapter to interact with network traffic. This can be either from within a Kali Linux machine or from your local machine.
+- Basic Python dependencies and development libraries for packet manipulation.
 
 ## Installation
 
-```console
-# clone the repo
+To install and set up the project, follow these steps:
+
+```bash
+# Clone the repository
 $ git clone https://github.com/stefan18-ux/Arpspoof-all/
 
-# change the working directory to arpspoof
+# Change the working directory to the project folder
 $ cd Arpspoof-all
 
-# install the requirements
+# Install the required dependencies
 $ sudo apt-get install build-essential libnfnetlink-dev libnetfilter-queue-dev
 $ sudo pip install netfilterqueue
 ```
+
 ## Usage
 
-```
-python3 main.py
+To run the tool, execute the following command:
 
-I recommend also running it first for about 10 seconds, and after run it again(the netdiscover command may not be as accurate as it should from the first try).
+```bash
+$ python3 main.py
 ```
+
+Note: It is recommended to run the tool for approximately 10 seconds initially, and then run it again. The accuracy of the netdiscover command used for identifying connected devices may improve after the first execution.
+
